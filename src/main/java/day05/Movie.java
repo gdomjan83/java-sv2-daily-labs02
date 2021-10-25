@@ -1,11 +1,11 @@
 package day05;
 
 public class Movie {
-    String title;
-    int productionYear;
-    double averageRating;
-    int ratingNumber = 0;
-    int totalRatings = 0;
+    private String title;
+    private int productionYear;
+    private double averageRating;
+    private int ratingNumber = 0;
+    private int totalRatings = 0;
 
     public Movie(String title, int productionYear) {
         this.title = title;
