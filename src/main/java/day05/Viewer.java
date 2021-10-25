@@ -1,7 +1,7 @@
 package day05;
 
 public class Viewer {
-    public double  watchMovie(Movie movie, int rating) {
+    public double watchMovie(Movie movie, int rating) {
         return movie.rateMovie(rating);
     }
 }
